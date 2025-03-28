@@ -1,66 +1,64 @@
-### 📚 **Library Management System**  
-A simple Java-based **Library Management System** that allows users to **add, view, search, update, and delete books** using a console-based interface.  
+###  **Digital Library Management System**  
 
+A simple **console-based Library Management System** built with **Java**. It allows users to manage books, including adding, viewing, searching, updating, and deleting them.
 
-## 🚀 **Features**  
-✔️ Add new books with **ID, Title, Author, Genre, and Availability**  
-✔️ View all books available in the library  
-✔️ Search books by **ID or Title**  
-✔️ Update book **availability** (Available/Checked Out)  
+##  **Features**  
+✔️ Add new books to the library  
+✔️ View all available books  
+✔️ Search books by **ID** or **Title**  
+✔️ Update book details (Title, Author, Genre, Availability)  
 ✔️ Delete books from the system  
 ✔️ User-friendly **console interface**  
 
 
-## 🛠 **Technologies Used**  
-- **Java** (Core Java, OOPs)  
+## 🔧 **Technologies Used**  
+- **Java** (Core Java, Object-Oriented Programming)  
 - **IntelliJ IDEA** (Recommended IDE)  
 
 
-## 📂 **Project Structure**  
-```
+## 📁 **Project Structure**  
+```plaintext
 Library-Management-System/
 │── src/
-│   ├── LibraryManagementSystem.java  # Main menu and entry point
-│   ├── Library.java                  # Manages book operations
-│   ├── Book.java                      # Defines book attributes
+│   ├── com/
+│   │   ├── library/
+│   │   │   ├── main/
+│   │   │   │   ├── LibraryManagementSystem.java  # Main menu and entry point
+│   │   │   ├── models/
+│   │   │   │   ├── Book.java                     # Defines book attributes
+│   │   │   ├── services/
+│   │   │   │   ├── Library.java                  # Manages book operations
 │── .gitignore
 │── README.md
 │── pom.xml (if using Maven)
 │── .idea/ (IntelliJ settings)
+│── out/ (Compiled files)
 ```
 
+##  **Setup & Usage**  
 
-## 🏗 **Setup & Usage**  
-
-### 1. Clone the Repository  
+### 1️. Clone the Repository  
 ```bash
 git clone https://github.com/your-username/Library-Management-System.git
 cd Library-Management-System
 ```
 
-### 2. Compile & Run  
+### 2️. Compile & Run  
 ```bash
-javac src/*.java  
-java src.LibraryManagementSystem
+javac -d out src/com/library/main/LibraryManagementSystem.java
+java -cp out com.library.main.LibraryManagementSystem
 ```
 
-### 3. Sample Commands (Console Input)  
-```
-1. Add Book
-   ID: 101
-   Title: Java Programming
-   Author: James Gosling
-   Genre: Programming
-   Availability: Available
+##  **How to Use?**  
+1. Run the application.  
+2. Choose an option from the **main menu**:  
+   - **Add a new book** (ID, Title, Author, Genre, Status)  
+   - **View all books**  
+   - **Search books** (by ID or Title)  
+   - **Update book details**  
+   - **Delete a book**  
+3. The program will execute the selected operation and return to the menu.  
 
-2. View All Books  
-3. Search Book (Enter Title or ID)  
-4. Update Book Availability  
-5. Delete Book  
-6. Exit  
-```
-
----
 
 ##  **License**  
-This project is **open-source** and free to use.  
+This project is open-source.
