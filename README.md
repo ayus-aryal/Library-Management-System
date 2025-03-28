@@ -1,7 +1,6 @@
 ### 📚 **Library Management System**  
 A simple Java-based **Library Management System** that allows users to **add, view, search, update, and delete books** using a console-based interface.  
 
----
 
 ## 🚀 **Features**  
 ✔️ Add new books with **ID, Title, Author, Genre, and Availability**  
@@ -11,13 +10,11 @@ A simple Java-based **Library Management System** that allows users to **add, vi
 ✔️ Delete books from the system  
 ✔️ User-friendly **console interface**  
 
----
 
 ## 🛠 **Technologies Used**  
 - **Java** (Core Java, OOPs)  
 - **IntelliJ IDEA** (Recommended IDE)  
 
----
 
 ## 📂 **Project Structure**  
 ```
@@ -32,7 +29,6 @@ Library-Management-System/
 │── .idea/ (IntelliJ settings)
 ```
 
----
 
 ## 🏗 **Setup & Usage**  
 
@@ -66,5 +62,5 @@ java src.LibraryManagementSystem
 
 ---
 
-## 📜 **License**  
+##  **License**  
 This project is **open-source** and free to use.  
