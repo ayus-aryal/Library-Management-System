@@ -1,7 +1,3 @@
-Here’s a **README.md** file for your **Library Management System** project:  
-
----
-
 ### 📚 **Library Management System**  
 A simple Java-based **Library Management System** that allows users to **add, view, search, update, and delete books** using a console-based interface.  
 
@@ -72,12 +68,3 @@ java src.LibraryManagementSystem
 
 ## 📜 **License**  
 This project is **open-source** and free to use.  
-
----
-
-## 🤝 **Contributing**  
-If you'd like to improve this project, feel free to **fork** the repo and create a **pull request**! 🚀  
-
----
-
-Let me know if you need any changes! 🚀
