@@ -36,19 +36,19 @@ Library-Management-System/
 
 ## 🏗 **Setup & Usage**  
 
-### 1️⃣ Clone the Repository  
+### 1. Clone the Repository  
 ```bash
 git clone https://github.com/your-username/Library-Management-System.git
 cd Library-Management-System
 ```
 
-### 2️⃣ Compile & Run  
+### 2. Compile & Run  
 ```bash
 javac src/*.java  
 java src.LibraryManagementSystem
 ```
 
-### 3️⃣ Sample Commands (Console Input)  
+### 3. Sample Commands (Console Input)  
 ```
 1. Add Book
    ID: 101
